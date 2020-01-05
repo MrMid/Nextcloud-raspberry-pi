@@ -17,4 +17,4 @@
 9. ` docker network inspect NETWORK ` (if you don't know the name, find it by ` docker network ls `) and note the ip address of mariadb server
 
 10. Open the page in web browser, there you should see the config page.
-11. Set your credentials, and set the connection to mysql (it's in the docker network, so you have to set address mentioned above). Do not change the data directory, this one is the path inside the Docker container. The data directory cound be changed BEFORE installation in the docker-compose.yml file.
+11. Set your credentials, and set the connection to mysql (it's in the docker network, so you have to set address mentioned above). Do not change the data directory, this one is the path inside the Docker container. The data directory could be changed BEFORE installation in the docker-compose.yml file.
